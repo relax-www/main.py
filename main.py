@@ -20,6 +20,9 @@ from PIL import Image
 from torchinfo import summary
 import torchvision
 
+
+
+
 # 构建模型（简单的卷积神经网络）
 class LeNet(nn.Module):
     def __init__(self):
